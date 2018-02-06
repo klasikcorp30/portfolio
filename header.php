@@ -38,6 +38,9 @@
 		<link rel="stylesheet" href="<?php bloginfo('template_directory');?>/assets/styles/main.css">
 		<link rel="stylesheet" href="<?php bloginfo('template_directory');?>/assets/styles/responsive.css">
 
+		<!-- My Style -->
+		<link rel="stylesheet" href="<?php bloginfo('template_directory');?>/assets/styles/mystyle.css">
+
 		<!-- JS -->
 		<script src="<?php bloginfo('template_directory');?>/assets/js/vendor/modernizr-2.8.3.min.js"></script>
 	</head>
