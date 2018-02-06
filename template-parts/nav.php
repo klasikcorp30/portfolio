@@ -16,7 +16,9 @@
 			<li><a href="#home">Home<span class="sr-only"></span></a></li>
 			<li><a href="#about">About<span class="sr-only"></span></a></li>
 			<li><a href="#portfolio">Portfolio<span class="sr-only"></span></a></li>
+
 			<li><a href="#contact">Contact<span class="sr-only"></span></a></li>
+
 		</ul>
 		<!-- / .nav .navbar-nav -->
 	</div>
