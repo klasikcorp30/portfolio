@@ -43,6 +43,9 @@
 
 		<!-- JS -->
 		<script src="<?php bloginfo('template_directory');?>/assets/js/vendor/modernizr-2.8.3.min.js"></script>
+		<!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
 	</head>
 
 	<body <?php body_class(); ?>>

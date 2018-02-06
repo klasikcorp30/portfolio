@@ -11,64 +11,53 @@
 
 	<div class="row">
 		<div id="pfolio">
-			<div class="col-md-4">
 
-				<div class="card">
-					<div>
+			<?php
+				$portfolios = new WP_Query(array(
+					'posts_per_page' => 3,
+					'post_type' => 'portfolio',
+				));
 
-						<img src="<?php bloginfo('template_directory')?>/assets/images/github-icon.gif" width="200px" height="200px">
-						<div class="shadow">
-							<h1>Project Name</h1>
-							<p>This is a paragraph</p>
+				if ($portfolios->have_posts()) :
+					while ($portfolios->have_posts()) : $portfolios->the_post();
+			?>
 
-							<a class="viewLink" href="#"> View Project</a>
+				<div class="col-md-4">
+					<div class="card">
+						<div>
+							<?php if (has_post_thumbnail()) : ?>
+							<img src="<?php the_post_thumbnail_url('medium'); ?>" width="200px" height="200px">
+							<?php else : ?>
+							<img src="<?php bloginfo('template_directory') ?>/assets/images/github-icon.gif" width="200px" height="200px">
+							<?php endif; ?>
+
+							<div class="shadow">
+								<h1><?= wp_trim_words(get_the_title(), 4) ?></h1>
+
+								<p><?php 
+									if (has_excerpt()) :
+										echo wp_trim_words(get_the_excerpt(), 18);
+									else :
+										echo wp_trim_words(get_the_content(), 18);
+									endif;
+									?>
+            					</p>
+
+								<a class="viewLink" href="<?php echo esc_url(get_permalink()); ?>"> View Project</a>
+							</div>
+
 						</div>
-
 					</div>
-
-
-
-
 				</div>
-			</div>
 
-			<div class="col-md-4">
+			<?php
+				endwhile;
+				endif;
+				wp_reset_query();
+			?>
 
-				<div class="card">
-					<div>
-						<img src="<?php bloginfo('template_directory')?>/assets/images/github-icon.gif" width="200px" height="200px">
-						<div class="shadow">
-							<h1>Project Name</h1>
-							<p>This is a paragraph</p>
-							<a class="viewLink" href="#"> View Project</a>
-						</div>
+			
 
-					</div>
-
-
-
-
-				</div>
-			</div>
-
-			<div class="col-md-4">
-
-				<div class="card">
-					<div>
-						<img src="<?php bloginfo('template_directory')?>/assets/images/github-icon.gif" width="200px" height="200px">
-						<div class="shadow">
-							<h1>Project Name</h1>
-							<p>This is a paragraph</p>
-							<a class="viewLink" href="#"> View Project</a>
-						</div>
-
-					</div>
-
-
-
-
-				</div>
-			</div>
 
 		</div>
 		<!-- / #pfolio -->
