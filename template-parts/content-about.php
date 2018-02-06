@@ -30,8 +30,8 @@
 
 			<div class="col-lg-4 freelancer-about-content">
 				<h2 class="t1-heading">About me</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-				<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p>Designing wasn't my strong suite, However web designing has changed my whole perspective on that.  I am a front end web developer.  I am very passionate about my work.  Using the various technologies to design clean and good quality webpages is my objective for every project I have and will work on.</p>
+				<p>I have not had much experience but I am willing and determine to learn as I progress in this field. I take my clients work seriously...</p>
 
 			</div>
 
