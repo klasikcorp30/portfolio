@@ -17,13 +17,11 @@
 			<!--<li><a href="#services">Services<span class="sr-only"></span></a></li> -->
 			<li><a href="#about">About<span class="sr-only"></span></a></li>
 			<li><a href="#portfolio">Portfolio<span class="sr-only"></span></a></li>
-			<!--	<li><a href="#testimonials">Testimonials<span class="sr-only"> -->
-			</span>
-			</a>
-			</li>
+
+
 			<li><a href="#blog">Blog<span class="sr-only"></span></a></li>
 			<li><a href="#contact">Contact<span class="sr-only"></span></a></li>
-			<!--	<li><a href="index.html">All Demos<span class="sr-only"></span></a> --></li>
+			<!--	<li><a href="index.html">All Demos<span class="sr-only"></span></a> -->
 		</ul>
 		<!-- / .nav .navbar-nav -->
 	</div>
