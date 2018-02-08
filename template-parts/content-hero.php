@@ -12,7 +12,7 @@
 		<div class="hero-content-wrapper">
 			<div class="hero-content">
 
-				<h4 class="h-alt hero-subheading wow fadeIn" data-wow-duration="2s" data-wow-delay=".7s">Web Dsigner</h4>
+				<h4 class="h-alt hero-subheading wow fadeIn" data-wow-duration="2s" data-wow-delay=".7s">Web Developer</h4>
 				<h1 class="hero-lead wow fadeInUp" data-wow-duration="1.5s">Raniel Brown</h1>
 				<a href="#contact" class="btn btn-light btn-small wow fadeIn" data-wow-duration="2s" data-wow-delay="1s">Schedule Project</a>
 

@@ -7,15 +7,15 @@
               <span class="icon-bar"></span>
             </button>
 		<!-- Logo -->
-		<a class="navbar-brand" href="index.html"><img class="navbar-logo" src="<?php bloginfo('template_directory');?>/assets/images/logo.png" alt="Definity - Logo"></a>
+		<a class="navbar-brand" href="/front-page.php">Raniel Brown</a>
 	</div>
 
 	<!-- Navbar Links -->
 	<div id="navbar" class="navbar-collapse collapse page-scroll navbar-right">
 		<ul class="nav navbar-nav">
-			<li><a href="#home">Home<span class="sr-only"></span></a></li>
-			<li><a href="#about">About<span class="sr-only"></span></a></li>
-			<li><a href="#portfolio">Portfolio<span class="sr-only"></span></a></li>
+			<li><a href="/#home">Home<span class="sr-only"></span></a></li>
+			<li><a href="/#about">About<span class="sr-only"></span></a></li>
+			<li><a href="/#portfolio">Portfolio<span class="sr-only"></span></a></li>
 
 			<li><a href="#contact">Contact<span class="sr-only"></span></a></li>
 

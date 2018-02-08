@@ -2,7 +2,7 @@
 	<div class="row">
 		<header class="sec-heading">
 			<h2>Featured Projects</h2>
-			<span class="subheading">Lorem ipsum dolor sit amet consectetur adipisicing</span>
+			<span class="subheading">Some of my best works</span>
 		</header>
 	</div>
 	<!-- / .row -->
@@ -26,7 +26,9 @@
 					<div class="card">
 						<div>
 							<?php if (has_post_thumbnail()) : ?>
-							<img src="<?php the_post_thumbnail_url('medium'); ?>" width="200px" height="200px">
+							
+							<a href="<?php echo esc_url(get_permalink()); ?>"><img src="<?php the_post_thumbnail_url('medium'); ?>" width="200px" height="200px"></a>
+							
 							<?php else : ?>
 							<img src="<?php bloginfo('template_directory') ?>/assets/images/github-icon.gif" width="200px" height="200px">
 							<?php endif; ?>

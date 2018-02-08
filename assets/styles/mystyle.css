@@ -17,3 +17,7 @@
 .viewLink:hover {
 	text-shadow: 2px 2px 4px grey;
 }
+
+.description{
+	color: red;
+}

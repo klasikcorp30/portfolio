@@ -36,14 +36,6 @@
                   </div>
                 </li>
 
-                <!-- Phone -->
-                <li>
-                  <span class="linea-basic-smartphone adr-icon"></span>
-                  <div class="adr-group">
-                    <span class="adr-heading">Phone</span>
-                    <span class="adr-info">+ 1876 487 4623</span>
-                  </div>
-                </li>
               </ul>
             </address>
 		</div>
@@ -56,10 +48,10 @@
 				<div class="row">
 
 					<ul>
-						<li><a href="#">facebook</a></li>
-						<li><a href="#">Twitter</a></li>
-						<li><a href="#">Dribbble</a></li>
-						<li><a href="#">Behance</a></li>
+						<li><a href="facebook.com/ranielbrown">Facebook</a></li>
+						<li><a href="linkedin.com/ranielbrown">LinkedIn</a></li>
+						
+						<li><a href="https://dribbble.com/klasikdezign11">Dribbble</a></li>
 					</ul>
 
 				</div>
